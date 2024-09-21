@@ -1,0 +1,15 @@
+id = "ai-translate"
+name = "AI Translate"
+description = "Based on LLM, implement English to Chinese translation"
+version = "0.0.1"
+schema_version = 1
+authors = ["cfanbo <haohtml@gmail.com>"]
+repository = "https://github.com/cfanbo/zed-ai-translate"
+
+[slash_commands.echo]
+description = "echoes the provided input"
+requires_argument = true
+
+[slash_commands.pick-one]
+description = "pick one of three options"
+requires_argument = true
